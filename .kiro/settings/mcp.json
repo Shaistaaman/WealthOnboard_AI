@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "aws-diagram": {
+      "command": "uvx",
+      "args": ["mcp-aws-diagram@latest"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": []
+    },
+    "chrome-devtools": {
+      "command": "uvx",
+      "args": ["mcp-chrome-devtools@latest"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}

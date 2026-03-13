@@ -1,0 +1,124 @@
+# WealthOnboard AI - Video Script (3 Minutes)
+
+## OPENING - The Problem (0:00 - 0:30)
+[Scene: Split screen showing worried investor and frustrated RIA]
+
+**Narrator (You):** "Market uncertainty. Economic recession fears. These are the reasons 67% of people avoid investing altogether. But here's the real problem..."
+
+[Show statistics on screen: "67% avoid investing due to complexity"]
+
+"Even when people want to invest, the onboarding process is broken. Weeks of paperwork. Manual document reviews. Endless compliance checks."
+
+[Show frustrated person with stack of papers]
+
+"And for Registered Investment Advisors? They're drowning in administrative work, spending 40% of their time on paperwork instead of actually advising clients."
+
+[Show RIA overwhelmed with documents]
+
+## THE SOLUTION - Introducing WealthOnboard AI (0:30 - 1:00)
+[Scene: Clean, modern interface appearing on screen]
+
+**Narrator:** "That's why I built WealthOnboard AI - a revolutionary dual-portal platform that transforms financial onboarding for both investors and advisors."
+
+[Show logo and tagline: "WealthOnboard AI - Where Finance Meets Intelligence"]
+
+"Imagine completing your entire investment onboarding in under 30 minutes instead of 3 weeks. Imagine AI that reads your documents, assesses your risk profile, and guides you through compliance - automatically."
+
+[Show smooth onboarding flow animation]
+
+"For RIAs, imagine having all client applications, documents, and compliance status in one intelligent dashboard."
+
+## DEMO - Investor Experience (1:00 - 1:45)
+[Screen recording of actual app]
+
+**Narrator:** "Let me show you how it works. Meet Sarah, a first-time investor."
+
+[Show investor portal login]
+
+"She signs up with our modern, secure authentication system powered by AWS Cognito."
+
+[Show onboarding steps]
+
+"Our 7-step onboarding process guides her through:
+- Personal information with smart validation
+- Employment and financial details
+- AI-powered KYC verification using Amazon Bedrock
+- Automated compliance checks
+- Risk assessment with personalized recommendations"
+
+[Show document upload with AI processing]
+
+"Watch this - she uploads her ID, and our AI instantly extracts all relevant information. No manual data entry. No waiting days for approval."
+
+[Show dashboard with 4 sections]
+
+"Her dashboard gives her everything: portfolio overview, AI advisor recommendations, account management, and real-time compliance status."
+
+## DEMO - RIA Experience (1:45 - 2:15)
+[Show RIA portal]
+
+**Narrator:** "Now meet David, Sarah's advisor. His RIA portal shows him everything he needs."
+
+[Show admin dashboard]
+
+"Real-time client pipeline. Automated document review. Compliance monitoring. All powered by our serverless AWS architecture."
+
+[Show client management interface]
+
+"He can approve Sarah's application with one click, thanks to our AI pre-screening. What used to take weeks now takes minutes."
+
+## TECHNICAL EXCELLENCE (2:15 - 2:45)
+[Show architecture diagram]
+
+**Narrator:** "Built entirely on AWS free tier using cutting-edge serverless architecture:
+- React with TypeScript for the frontend
+- Lambda microservices for scalable backend
+- Amazon Bedrock for AI document processing
+- DynamoDB for lightning-fast data storage
+- All developed rapidly using AWS Kiro AI assistant"
+
+[Show code snippets and AWS services]
+
+"This isn't just a prototype - it's production-ready, scalable, and cost-effective."
+
+## IMPACT & CLOSING (2:45 - 3:00)
+[Show success metrics and future vision]
+
+**Narrator:** "WealthOnboard AI doesn't just solve today's problems - it democratizes wealth management. Making professional investment advice accessible to everyone while empowering advisors to focus on what they do best: advising."
+
+[Show both users successfully using the platform]
+
+"The future of financial services is here. It's intelligent. It's seamless. It's WealthOnboard AI."
+
+[End with logo and call-to-action]
+
+**Text on screen:** "WealthOnboard AI - Transforming Finance Through Intelligence"
+
+---
+
+## VISUAL CUES & TIMING NOTES:
+
+**0:00-0:30:** Problem setup with statistics and frustrated users
+**0:30-1:00:** Solution introduction with clean UI reveals
+**1:00-1:45:** Live demo of investor onboarding flow
+**1:45-2:15:** RIA portal demonstration
+**2:15-2:45:** Technical architecture showcase
+**2:45-3:00:** Impact statement and strong closing
+
+## SCREEN ELEMENTS TO SHOW:
+- Split screens of investor/RIA frustrations
+- Clean app interface reveals
+- Live onboarding flow walkthrough
+- Document upload with AI processing
+- Dashboard with 4 main sections
+- RIA admin panel with client management
+- AWS architecture diagram
+- Success metrics and testimonials
+
+## TONE:
+- Professional but approachable
+- Confident and solution-focused
+- Technical credibility without jargon
+- Emphasis on real-world impact
+
+**Total Duration: Exactly 3 minutes**

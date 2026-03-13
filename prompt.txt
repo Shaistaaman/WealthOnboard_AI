@@ -1,0 +1,363 @@
+1.  Project Overview
+
+Client: WealthOnboard AI
+
+Project Goal: To create a comprehensive, user-friendly, and secure website that provides both front-end and back-office portal features for interactive broker services.
+
+Target Audience: Individual and corporate clients seeking online brokerage services, financial advisors, and bank administrators.
+
+Website Tone: Professional, trustworthy, modern, and user-centric.
+
+Color Scheme:
+
+#f8b319 (golden yellow)
+#fcd46a (light yellow)
+#0f3d66 (dark blue)
+#51779e (medium blue)
+#e0d4b8 (beige)
+#3a5054 (dark teal)
+
+2. Design and User Experience (UX)
+
+Overall Design:
+
+Modern, clean, and professional design.
+
+Responsive layout that adapts seamlessly to different screen sizes (desktop, tablet, mobile).
+
+Consistent use of WealthOnboarding AI's branding (logo, colors, typography).
+
+Homepage:
+
+Prominent logo and brand colors.
+
+Top navigation menu with clear categories.
+
+Rolling banner for real-time market indices.
+
+Rotating banners (carousel) for key products/promotions.
+
+Search bar with autocomplete.
+
+Clear call-to-action buttons (e.g., "Open Account," "Log In").  "Open Account" button should be black, "Log In" button should be lighter.
+
+Navigation:
+
+Intuitive and easy-to-use navigation.
+
+Clear hierarchy of information.
+
+Search functionality.
+
+Breadcrumbs for easy navigation.
+
+User Interface (UI) Elements:
+
+Consistent styling of buttons, forms, and other UI elements.
+
+Clear and concise labels and instructions.
+
+Use of icons to enhance usability.
+
+Progress indicators for multi-step processes.
+
+Celebratory animations for successful actions (e.g., susbmit or success).
+
+Forms:
+
+Clear labels and input fields.
+
+Real-time validation with visual feedback (green checkmarks, red error messages).
+
+Clear error messages and instructions.
+
+Next Back and Save or Submit  buttons inactive until all required fields are correctly filled.
+
+Data Visualization:
+
+Interactive charts and graphs for account performance and market data.
+
+Clear and concise presentation of financial information.
+
+Accessibility:
+
+Follow WCAG guidelines.
+
+4.  Technical Requirements
+
+Technology Stack: (To be determined, but should be modern, secure, and scalable)
+
+Frontend:  HTML5, CSS3, JavaScript, React.js or similar framework.
+
+Backend:   AWS Serverless Node.js or Python, or similar. AWS lambda, step function, API gateway, DynamoDB, or bedrock.
+
+
+
+Performance:
+
+Fast page load times.
+
+Optimized for performance.
+
+Scalable architecture to handle future growth.
+
+Integrations:
+
+
+
+Mock simulation for KYC, PEP and AML.
+
+Documentation:
+
+Detailed technical documentation.
+
+User manuals and help resources.
+
+5.  Content Requirements
+
+All content should be professional, accurate, and up-to-date.
+
+Clear and concise language.
+
+User-friendly instructions and explanations.
+
+Error messages should be informative and helpful.
+
+6.  Deliverables
+
+Fully functional website.
+
+Source code.
+
+Database schema.
+
+Technical documentation.
+
+
+
+
+
+7.  Success Criteria
+
+The website meets all functional and technical requirements.
+
+The website is user-friendly and easy to navigate.
+
+
+3.  Functional Requirements
+
+The website should include the following features, categorized into front-end and back-office functionalities:
+
+2.1 Front-End Features
+
+User Authentication:
+
+Sign Up:
+
+Individual and corporate account options.
+
+Detailed information collection (as per provided document, including name, contact details, date of birth, country of residence, and document uploads).
+
+Real-time validation of input fields.
+
+Not now : Email verification process with OTP (including resend option and account lockout after failed attempts).
+
+Password setup with strength meter, requirements enforcement, and confirmation field.
+
+Password reset  functionality.
+
+Login:
+
+Secure login process.
+
+"Remember me" option.
+
+Not now : Two-factor authentication (2FA) option via email.
+
+Login error handling with informative messages.
+
+User Profile Management:
+
+Profile completion and customization
+
+Account Management:
+
+Account Balance: Display of real-time account balances.
+
+Account Performance: Interactive charts and graphs showing account performance over various periods.
+
+PNL Details: Profit and Loss statements, downloadable in various formats.
+
+Customer Fund Details and Fund Pool In:  Clear presentation of fund sources, allocation, and pool information.
+
+Trading Features:
+
+Trading Permissions: Management of trading permissions for different asset classes.
+
+AI Financial Advisor Panel:
+
+For clients: Access to AI financial advisor information and communication tools.
+
+For advisors:  Dashboard to manage client accounts, view performance, and communicate with clients.
+
+Market Data: open source API 
+* Real-time market data display (rolling banner).
+* Interactive charts.
+
+Information and Support:
+
+FAQ section
+
+AI Advisors.
+
+Educational resources.
+
+Contact Us section.
+
+KYC and Compliance:
+
+KYC Verification:  mock simulation for KYC provider.
+
+Document Uploading: Secure document upload for identity verification and other purposes.
+
+
+
+
+
+
+
+
+
+Investment Tools:
+
+Interactive Investment Model Selection.
+
+Risk Tolerance Assessment Questionnaire.
+
+2.2 Back-Office Features
+
+Administrative Panel:
+
+Centralized management of user accounts, permissions, and system settings.
+
+KYC verification review and management.
+
+Application status tracking.
+
+Document management.
+
+Data Management:
+
+Daily value updates from data feeds.
+
+Integration with databases for storing user data, account information, and transaction history.
+
+Trading and Transaction Processing:
+
+Fund receipt processing.
+
+Fund transfer initiation and tracking. Mock for now from dynamodb of one user to another
+
+Not now, we will use dummy data for MVP: Integration with Interactive Brokers (IB) for trade execution.
+
+Allocation of funds to sub-accounts (Email to the Administrative panel).
+
+Recording of sub-account allocations.
+
+Financial Management:
+
+Dashboard for accounting and reconciliation.
+
+Bank feed management.
+
+Financial report generation (monthly, quarterly, annually).
+
+Reporting and Reconciliation:
+
+Regular account reconciliation.
+
+Performance reporting.
+
+Transaction and holdings reports.
+
+Tax and integrated financial reporting.
+
+Compliance and Audit:
+
+Transaction record maintenance.
+
+Regulatory compliance checks.
+
+Audit trail generation.
+
+
+Project Summary
+WealthOnboard AI MVP - A comprehensive fintech platform for interactive broker services with both client-facing and back-office functionality, built on AWS serverless architecture.
+
+Key Architecture Approach:
+No IaC/CDK: Manual AWS service setup
+Direct API Calls: Frontend directly calls AWS services via API Gateway
+Backend Structure: Lambda functions organized in a /backend folder
+Serverless Stack: AWS Lambda, API Gateway, DynamoDB, Step Functions, Bedrock
+Core Features to Build:
+
+
+
+Frontend (Client Portal):
+Authentication System
+
+Individual/Corporate signup with detailed KYC forms
+Secure login with password reset
+Profile management and completion
+Account Management
+
+Real-time account balances
+Interactive performance charts/graphs
+P&L statements (downloadable)
+Fund details and allocation views
+Trading Features
+
+Trading permissions management
+Investment model selection
+Risk tolerance assessment questionnaire
+AI Financial Advisor
+
+Client communication tools
+AI-powered financial guidance (using Bedrock)
+Market Data Integration
+
+Real-time market data display
+Rolling banner with market indices
+Interactive charts
+
+
+
+Backend (Administrative Portal):
+User Management
+
+Centralized account management
+KYC verification workflow (mock simulation)
+Application status tracking
+Financial Operations
+
+Fund transfer processing (mock DynamoDB transfers)
+Account reconciliation dashboard
+Financial report generation
+Compliance & Audit
+
+Document management system
+Transaction record maintenance
+Audit trail generation
+
+
+
+Technical Implementation:
+Frontend: React.js with existing tech stack
+Backend: Node.js Lambda functions
+Database: DynamoDB for user data, transactions, accounts
+AI: Amazon Bedrock for financial advisory features
+APIs: Open source market data APIs
+File Storage: S3 for document uploads
+Workflow: Step Functions for complex processes
+The MVP focuses on creating a functional prototype with mock integrations for KYC/AML providers while building the core infrastructure for a scalable fintech platform.
+
